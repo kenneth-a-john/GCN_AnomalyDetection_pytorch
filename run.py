@@ -77,7 +77,7 @@ if __name__ == '__main__':
     parser.add_argument('--lr', type=float, default=5e-3, help='learning rate')
     parser.add_argument('--dropout', type=float, default=0.3, help='Dropout rate')
     parser.add_argument('--alpha', type=float, default=0.8, help='balance parameter')
-    parser.add_argument('--device', default='cuda', type=str, help='cuda/cpu')
+    parser.add_argument('--device', default='cpu', type=str, help='cuda/cpu')
 
     args = parser.parse_args()
 
